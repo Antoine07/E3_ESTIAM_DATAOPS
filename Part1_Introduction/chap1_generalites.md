@@ -185,10 +185,6 @@ l[::2] # [1,3,5] début fin par pas de 2
 l = []
 l.append(10) # ajouter 10 à la liste
 
-# Ajoute tous les éléments d'un itérables
-l.extend( x*x for x in range(10))
-# [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
-
 # insérer un élément à une position donnée, ici indice 2 on insère 100
 l.insert(2, 100)
 # [0, 1, 100, 4, 9, 16, 25, 36, 49, 64, 81]
@@ -404,8 +400,6 @@ for a in range(1, 4):
 ### 04 Exercice multiplication avec tuple
 
 Ecrire une fonction qui prend deux tuples de nombres de même longueur et multiplie les éléments du tuple terme à terme en faisant leur somme.
-
-Question : est ce que cet exercice n'a pas déjà été fait précédemment dans le cours ?
 
 Un tuple se parcourt comme une liste.
 
