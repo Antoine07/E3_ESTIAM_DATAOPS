@@ -48,3 +48,9 @@ print(lines)
 ## 01 Exercice moyenne
 
 Faire la moyenne des notes du fichier notes.csv
+
+## 02 Exercice encore sur les moyennes
+
+1. Créez votre propre fichier de notes et faites la moyenne
+
+2. ajouter des coefficents à vos notes et refaire la moyenne.
